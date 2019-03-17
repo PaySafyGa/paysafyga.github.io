@@ -1867,8 +1867,8 @@ body {
   flex-direction: row-reverse;
 }
 .cid-rkUABw3BUH {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 45px;
+  padding-bottom: 135px;
   background-color: #ffffff;
 }
 .cid-rkUABw3BUH .title {
@@ -1927,41 +1927,54 @@ body {
 .cid-rkUABw3BUH .cost {
   text-align: center;
 }
-.cid-rkUC0q8exO {
+.cid-rkXqNrvL7G {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #ffffff;
+  background-color: #c1c1c1;
+  background: linear-gradient(0deg, #c1c1c1, #149dcc);
 }
-.cid-rkUC0q8exO .counter-container {
-  color: #767676;
+.cid-rkXqNrvL7G .nav-tabs {
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-bottom: none;
 }
-.cid-rkUC0q8exO .counter-container ol {
-  margin-bottom: 0;
-  counter-reset: myCounter;
-}
-.cid-rkUC0q8exO .counter-container ol li {
-  margin-bottom: 1rem;
-}
-.cid-rkUC0q8exO .counter-container ol li {
-  list-style: none;
-  padding-left: .5rem;
-}
-.cid-rkUC0q8exO .counter-container ol li:before {
-  position: absolute;
-  left: 0px;
-  margin-top: -10px;
-  counter-increment: myCounter;
-  content: counter(myCounter);
-  display: inline-block;
-  text-align: center;
-  margin: 5px 10px;
-  line-height: 40px;
-  transition: all .2s;
+.cid-rkXqNrvL7G .nav-tabs .nav-link {
+  box-sizing: border-box;
   color: #ffffff;
-  background: #149dcc;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+  padding: 1rem 3rem;
+  margin: 0.4rem .8rem !important;
+  transition: all .5s;
+}
+.cid-rkXqNrvL7G .nav-tabs .nav-link:hover {
+  background-color: #ff3366;
+}
+.cid-rkXqNrvL7G .nav-tabs .nav-link.active {
+  font-weight: 500;
+  color: #ffffff;
+  font-style: normal;
+  border: none;
+  background: #ff3366;
+}
+.cid-rkXqNrvL7G .nav-tabs .nav-link.active:hover {
+  border: none;
+}
+.cid-rkXqNrvL7G p {
+  color: #232323;
+}
+.cid-rkXqNrvL7G .mbr-text {
+  text-align: center;
+}
+.cid-rkXqNrvL7G H2 {
+  color: #ffffff;
+}
+.cid-rkXqNrvL7G B {
+  color: #ffffff;
 }
 .cid-rkUEs8I5Zq {
   padding-top: 60px;
